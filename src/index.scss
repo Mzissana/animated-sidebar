@@ -1,25 +1,26 @@
+@import "/src/styles/normalize.css";
 :root {
-    // dark
-    --color-sidebar-background-dark-default: #202127;
-    --color-sidebar-background-dark-hover: #2D2E34;
-    --color-sidebar-background-dark-active: #393A3F;
-    --color-text-dark-default: #f0f2ff;
-    --color-text-dark-hover: #f0f2ff;
-    --color-text-dark-active: #f0f2ff;
-    --color-text-logo-dark-default: #3B82F6;
-    --color-button-background-dark-default: #202127;
-    --color-button-background-dark-active: #4B5966;
+  // dark
+  --color-sidebar-background-dark-default: #202127;
+  --color-sidebar-background-dark-hover: #2d2e34;
+  --color-sidebar-background-dark-active: #393a3f;
+  --color-text-dark-default: #f0f2ff;
+  --color-text-dark-hover: #f0f2ff;
+  --color-text-dark-active: #f0f2ff;
+  --color-text-logo-dark-default: #3b82f6;
+  --color-button-background-dark-default: #202127;
+  --color-button-background-dark-active: #4b5966;
 
-    // light
-    --color-sidebar-background-light-default: #fff;
-    --color-sidebar-background-light-hover: #f0f2ff;
-    --color-sidebar-background-light-active: #f0f2ff;
-    --color-text-light-default: #97a5b9;
-    --color-text-light-hover: #091b31;
-    --color-text-light-active: #0000b5;
-    --color-text-logo-light-default: #0000b5;
-    --color-button-background-light-default: #fff;
-    --color-button-background-light-active: #e2e8f0;
+  // light
+  --color-sidebar-background-light-default: #fff;
+  --color-sidebar-background-light-hover: #f0f2ff;
+  --color-sidebar-background-light-active: #f0f2ff;
+  --color-text-light-default: #97a5b9;
+  --color-text-light-hover: #091b31;
+  --color-text-light-active: #0000b5;
+  --color-text-logo-light-default: #0000b5;
+  --color-button-background-light-default: #fff;
+  --color-button-background-light-active: #e2e8f0;
 }
 
 html {
@@ -28,4 +29,8 @@ html {
   line-height: 1.5;
   background-color: #e2e8f0;
   color: rgba(255, 255, 255, 0.87);
+}
+
+body {
+  background-color: #a9b5c5;
 }
